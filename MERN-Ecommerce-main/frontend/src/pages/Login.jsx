@@ -12,7 +12,7 @@ const Login = () => {
 
   const navigate = useNavigate();
 
-  const BASE_URL = "http://localhost:5000/api/users";
+  const BASE_URL = "https://trendify-fvdq.onrender.com/api/users";
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
